@@ -6,6 +6,7 @@ export default function Home(){
     function listar() {
         const r = [{
             id: 1,
+            imagem: "link imagem",
             titulo: "algumacoisa",
             preco: "preço da paradinha",
             descricao: "nossa super legal esssa merda",
@@ -13,6 +14,7 @@ export default function Home(){
         },
         {
             id: 2,
+            imagem: "link imagem",
             titulo: "outra coisa",
             preco: "uau que caro",
             descricao: "muito legal da pra fazer nada com isso",
@@ -20,6 +22,7 @@ export default function Home(){
         },
         {
             id: 3,
+            imagem: "link imagem",
             titulo: "outra coisa depois da dee cima",
             preco: "é mais caro que o do lado",
             descricao: "uau consegui fazer um total de nada com isso",
