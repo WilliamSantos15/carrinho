@@ -38,7 +38,7 @@ export default function Contador(props) {
     }
 
     function decrementar() {
-        if (qtd == 0)
+        if (qtd === 0)
             return;
         setQtd(qtd-1)
     }

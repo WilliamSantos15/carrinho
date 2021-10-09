@@ -1,4 +1,4 @@
-import { useState } from '../contador'
+import { useState } from 'react'
 
 import Contador from '../contador'
 import { Container, RemoverIcon } from './styled'
@@ -36,7 +36,7 @@ export default function CarrinhoItem(props) {
                 {produto.qtd}
             </div>
 
-            <div className="remover"> <RemoveIcon onClick={remover} /> </div>
+            <div className="remover"> <RemoverIcon onClick={remover} /> </div>
         </Container>
     )
 }

@@ -1,4 +1,8 @@
+
+import 'react-multi-carousel/lib/styles.css'
+
 import { useState } from 'react'
+import Produto from '../produto'
 import { Container } from './styled'
 
 export default function Home(){

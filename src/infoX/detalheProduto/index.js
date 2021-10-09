@@ -4,7 +4,7 @@ import { Link, useHistory } from 'react-router-dom'
 import { Container } from './styled'
 
 export default function DetalheProduto(props){
-    const [ produto, setProduto ] = useState(poros.location.state);
+    const [ produto, ] = useState(props.location.state);
     const navigation = useHistory();
 
     function comprar() {
